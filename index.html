@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пион и лаванда — студия цветов с доставкой за час</title>
+  <meta name="description" content="Студия цветов «Пион и лаванда»: авторские букеты из свежих пионов, лаванды и сезонных цветов. Доставка по городу за 60 минут.">
+  <link rel="icon" href="assets/img/bouquet.png" type="image/png">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <canvas class="petals" id="petals" aria-hidden="true"></canvas>
+
+  <!-- Шапка -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="logo">Пион <em>&amp;</em> лаванда</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#catalog">Букеты</a>
+        <a href="#steps">Как мы работаем</a>
+        <a href="#studio">Студия</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#order" class="btn btn--solid btn--nav">Заказать букет</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Герой -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">Студия цветов · доставка за 60 минут</p>
+        <h1>Пион <em>&amp;</em> лаванда</h1>
+        <p class="hero__sub">Авторские букеты из свежих цветов: собираем под повод, характер и бюджет — и привозим так аккуратно, будто сами дарим.</p>
+        <div class="hero__cta">
+          <a href="#catalog" class="btn btn--solid">Выбрать букет</a>
+          <a href="#order" class="btn btn--ghost">Букет под запрос</a>
+        </div>
+        <div class="hero__stats">
+          <div><b>1 200+</b><span>букетов собрано</span></div>
+          <div><b>60 мин</b><span>до вручения</span></div>
+          <div><b>4,9</b><span>средняя оценка</span></div>
+        </div>
+      </div>
+      <div class="hero__media">
+        <div class="arch"><img src="assets/img/hero.png" alt="Интерьер студии цветов с букетами пионов и лаванды"></div>
+        <div class="float-card">🌸 Сегодня доставлено <b>18 букетов</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Каталог -->
+  <section class="section catalog" id="catalog">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Каталог</p>
+        <h2>Букеты этой недели</h2>
+        <p class="head__sub">Каждый букет — единственный в своём роде: состав зависит от утренней поставки и вашего повода.</p>
+      </div>
+      <div class="catalog__grid">
+        <article class="card reveal">
+          <div class="card__img"><img src="assets/img/bouquet.png" alt="Букет из пионов и лаванды в крафтовой бумаге"></div>
+          <div class="card__body">
+            <h3>«Пион и лаванда»</h3>
+            <p>Пионы, лаванда, эвкалипт и хлопок в крафтовой упаковке с шёлковой лентой.</p>
+            <div class="card__foot"><b>3 490 ₽</b><span>50–60 см</span></div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="assets/img/hero.png" alt="Букет в интерьере студии"></div>
+          <div class="card__body">
+            <h3>«Утро в Провансе»</h3>
+            <p>Пастельная композиция с полевыми цветами — для лёгких поводов и тёплых слов.</p>
+            <div class="card__foot"><b>2 890 ₽</b><span>40–45 см</span></div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="assets/img/florist.png" alt="Флорист собирает весенний букет"></div>
+          <div class="card__body">
+            <h3>«Весенний этюд»</h3>
+            <p>Ранункулюсы, тюльпаны и зелень — соберём в присутствии получателя за 20 минут.</p>
+            <div class="card__foot"><b>3 190 ₽</b><span>45 см</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Как мы работаем -->
+  <section class="section section--tint steps" id="steps">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Процесс</p>
+        <h2>От заявки до вручения — час</h2>
+      </div>
+      <ol class="steps__grid">
+        <li class="reveal"><span>01</span><h3>Заявка</h3><p>Оставляете повод и бюджет — звоним за 10 минут и предлагаем состав.</p></li>
+        <li class="reveal"><span>02</span><h3>Свежие цветы</h3><p>Отбираем цветы утренней поставки: каждый стебель — вручную.</p></li>
+        <li class="reveal"><span>03</span><h3>Сборка</h3><p>Собираем, упаковываем в крафт и шёлк, прикладываем открытку.</p></li>
+        <li class="reveal"><span>04</span><h3>Доставка</h3><p>Курьер студии доставляет букет за час. Фото вручения — по запросу.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Студия -->
+  <section class="section studio" id="studio">
+    <div class="wrap two-col">
+      <div class="two-col__media reveal">
+        <div class="photo-frame"><img src="assets/img/florist.png" alt="Флорист за работой над букетом"></div>
+      </div>
+      <div class="two-col__text reveal">
+        <p class="eyebrow">Студия</p>
+        <h2>Мы говорим на языке цветов — буквально</h2>
+        <p>«Пион и лаванда» — маленькая студия, где букет собирают руками флористов, а не по каталогу. Мы знаем, какой цветок скажет «спасибо», какой — «скучаю», а какой просто поднимет день.</p>
+        <blockquote>«Идеальный букет — не самый дорогой, а самый точный».</blockquote>
+        <p class="two-col__sign">— Вера, основатель студии</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="section section--tint reviews" id="reviews">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Отзывы</p>
+        <h2>Букеты, которые запомнили</h2>
+      </div>
+      <div class="reviews__wrap">
+        <figure class="quote-big reveal">
+          <blockquote>«Заказывала букет маме на юбилей за 40 минут до праздника. Получилось нежнее, чем я представляла. Мама расплакалась — в хорошем смысле!»</blockquote>
+          <figcaption>Ольга Т. — ★★★★★</figcaption>
+        </figure>
+        <div class="reviews__row">
+          <figure class="quote-sm reveal"><blockquote>«Редкий случай, когда фото на сайте = реальность. Пионы были шикарные». <figcaption>Марина С.</figcaption></blockquote></figure>
+          <figure class="quote-sm reveal"><blockquote>«Доставили за 55 минут, упаковка — как подарок сама по себе». <figcaption>Игорь Д.</figcaption></blockquote></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="wrap cta-band__inner reveal">
+      <h2>Соберём букет под повод и бюджет</h2>
+      <p>Расскажите, кому и почему — предложим три состава на выбор.</p>
+      <a href="#order" class="btn btn--dark">Оставить заявку</a>
+    </div>
+  </section>
+
+  <!-- Заказ -->
+  <section class="section order" id="order">
+    <div class="wrap two-col">
+      <div class="two-col__text reveal">
+        <p class="eyebrow">Заказ</p>
+        <h2>Оставьте заявку</h2>
+        <p class="order__lead">Перезвоним за 10 минут, уточним повод и предложим варианты. Доставка — в день заказа.</p>
+        <ul class="contacts__list">
+          <li><b>Студия</b><span>ул. Лавандовая, 12 · ежедневно 9:00–21:00</span></li>
+          <li><b>Телефон</b><span>+7 (900) 000-00-00</span></li>
+          <li><b>Доставка</b><span>по городу — бесплатно от 2 500 ₽</span></li>
+        </ul>
+      </div>
+      <form class="form reveal" id="orderForm" novalidate>
+        <div class="form__row">
+          <label>Ваше имя<input type="text" name="name" placeholder="Как к вам обращаться" required></label>
+          <label>Телефон<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+        </div>
+        <div class="form__row">
+          <label>Повод<select name="reason"><option>День рождения</option><option>Романтика</option><option>Благодарность</option><option>Без повода</option><option>Другое</option></select></label>
+          <label>Бюджет<select name="budget"><option>до 2 500 ₽</option><option selected>2 500–4 000 ₽</option><option>4 000–6 000 ₽</option><option>выше 6 000 ₽</option></select></label>
+        </div>
+        <label>Пожелания<textarea name="note" rows="2" placeholder="Любимые цветы, цвет, упаковка…"></textarea></label>
+        <button type="submit" class="btn btn--solid btn--wide">Заказать букет</button>
+        <p class="form__ok" id="formOk">Спасибо! Заявка принята — перезвоним в течение 10 минут 🌸</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a href="#top" class="logo">Пион <em>&amp;</em> лаванда</a>
+      <p class="footer__note">Студия цветов · ул. Лавандовая, 12 · ежедневно 9:00–21:00</p>
+      <p class="footer__copy">© 2026 «Пион и лаванда». Демо-сайт для портфолио.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
