@@ -1,5 +1,12 @@
 # Пион и лаванда — сайт студии цветов
 
+## Демо
+
+**[Открыть сайт →](https://shalim-andrej.github.io/cvety-pion-i-lavanda/)**
+
+![Главный экран — десктоп](screenshots/desktop.png)
+![Мобильная версия](screenshots/mobile.png)
+
 Одностраничный промо-сайт цветочной студии: каталог букетов, этапы работы, отзывы и форма заказа. Задача страницы — привести гостя от первого экрана до заявки за одну минуту.
 
 **Демо:** [shalim-andrej.github.io/cvety-pion-i-lavanda](https://shalim-andrej.github.io/cvety-pion-i-lavanda/)
